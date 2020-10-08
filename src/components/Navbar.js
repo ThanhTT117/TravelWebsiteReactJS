@@ -60,6 +60,15 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
+                to="/todolist"
+                className="nav-links"
+                onClick={colseMobileMenu}
+              >
+                Todo-List
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="/sign-up"
                 className="nav-links-mobile"
                 onClick={colseMobileMenu}

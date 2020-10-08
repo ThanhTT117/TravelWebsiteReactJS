@@ -6,6 +6,7 @@ import Home from "./components/pages/home";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
+import TodoList from "./components/pages/TodoList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
           <Route path="/products" component={Products} />
+          <Route path="/todolist" component={TodoList} />
           <Route path="/sign-up" component={SignUp} />
         </Switch>
       </Router>

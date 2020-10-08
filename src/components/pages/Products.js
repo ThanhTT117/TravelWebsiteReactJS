@@ -1,7 +1,14 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
+import Section from "../Section";
+import Footer from "../Footer";
 
-export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+function Products() {
+  return (
+    <>
+      <Section />
+      <Footer />
+    </>
+  );
 }
-
+export default Products;
