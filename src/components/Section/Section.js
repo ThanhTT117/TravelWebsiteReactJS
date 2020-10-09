@@ -1,6 +1,5 @@
 import React from "react";
-import "../App.css";
-import { Button } from "./Button";
+import { Button } from "../Button/Button";
 import "./Section.css";
 
 function Section() {
