@@ -7,7 +7,9 @@ import Footer from "../Footer/Footer";
 function TodoList() {
   return (
     <div>
-      <TodoListC />
+      <div className="todo-app">
+        <TodoListC />
+      </div>
       <Footer />
     </div>
   );

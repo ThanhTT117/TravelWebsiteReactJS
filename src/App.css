@@ -8,7 +8,6 @@
 .home,
 .services,
 .products,
-.todolist,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -34,14 +33,6 @@
   color: #fff;
   font-size: 100px;
 }
-.todolist {
-  background-image: url("/images/img-2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
 .sign-up {
   background-image: url("/images/img-8.jpg");
@@ -50,4 +41,17 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 80%;
+  min-height: 80%;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
 }

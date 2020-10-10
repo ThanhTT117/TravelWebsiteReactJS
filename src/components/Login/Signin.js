@@ -35,7 +35,7 @@ const Signin = (props) => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <p className="errorMsg">{passwordError}</p>
-        <button className="btnContainer">
+        <div className="btnContainer">
           {hasAccount ? (
             <>
               <button onClick={hangleLogin}>Sign in</button>
@@ -48,12 +48,12 @@ const Signin = (props) => {
             <>
               <button onClick={handleSigup}>Sign up</button>
               <p>
-                Don't have an account ?{" "}
+                Already have an account ?
                 <span onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
               </p>
             </>
           )}
-        </button>
+        </div>
       </div>
     </section>
   );

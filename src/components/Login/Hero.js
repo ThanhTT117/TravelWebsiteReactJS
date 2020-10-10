@@ -1,6 +1,11 @@
 import React from "react";
+import fire from "../Fire";
+import LoginC from "./LoginC"
 
-const Hero = (handleLogout) => {
+const Hero = () => {
+  const handleLogout = () => {
+    fire.auth().signOut();
+  };
   return (
     <section className="hero">
       <nav>
